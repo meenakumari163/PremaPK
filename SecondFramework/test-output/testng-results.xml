@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24864" started-at="2019-03-22T10:49:00Z" finished-at="2019-03-22T10:49:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24864" started-at="2019-03-22T10:49:00Z" finished-at="2019-03-22T10:49:25Z">
+      <class name="Scripts.ValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Scripts.ValidLogin@548e7350]" name="openApplication" is-config="true" duration-ms="8214" started-at="2019-03-22T16:19:00Z" finished-at="2019-03-22T16:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:Scripts.ValidLogin@548e7350]" name="testValidLogin" duration-ms="16609" started-at="2019-03-22T16:19:08Z" finished-at="2019-03-22T16:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Scripts.ValidLogin@548e7350]" name="closeApplication" is-config="true" duration-ms="1" started-at="2019-03-22T16:19:25Z" finished-at="2019-03-22T16:19:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:0, instance:Scripts.ValidLogin@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Scripts.ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
