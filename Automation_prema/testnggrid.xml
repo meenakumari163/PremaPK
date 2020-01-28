@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<test  name="TestwindowsInFF">
+  <parameter name="node" value="http://localhost:4444/wd/hub"></parameter>
+  <parameter name="browser" value="firefox"> </parameter>
+  <classes>
+   <class name="TestNGPackge.SeleniumGrid"/>
+    </classes>
+    </test> <!-- Test -->
+    
+    
+  
+  <test  name="TestwindowsInChrome">
+  <parameter name="node" value="http://localhost:4444/wd/hub"></parameter>
+  <parameter name="browser" value="chrome"> </parameter>
+  <classes>
+   <class name="TestNGPackge.SeleniumGrid"/>
+    </classes>
+     </test> <!-- Test -->
+    </suite> <!-- Suite -->

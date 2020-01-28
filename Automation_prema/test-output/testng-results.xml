@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91" started-at="2019-04-01T16:58:45Z" finished-at="2019-04-01T16:58:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91" started-at="2019-04-01T16:58:45Z" finished-at="2019-04-01T16:58:45Z">
+      <class name="TestNGPackge.DemoTestNg">
+        <test-method status="PASS" signature="createuser()[pri:1, instance:TestNGPackge.DemoTestNg@1b68ddbd]" name="createuser" duration-ms="10" started-at="2019-04-01T16:58:45Z" finished-at="2019-04-01T16:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="editeuser()[pri:2, instance:TestNGPackge.DemoTestNg@1b68ddbd]" name="editeuser" duration-ms="2" started-at="2019-04-01T16:58:45Z" finished-at="2019-04-01T16:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editeuser -->
+        <test-method status="PASS" signature="deleteuser()[pri:3, instance:TestNGPackge.DemoTestNg@1b68ddbd]" name="deleteuser" duration-ms="2" started-at="2019-04-01T16:58:45Z" finished-at="2019-04-01T16:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- TestNGPackge.DemoTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
