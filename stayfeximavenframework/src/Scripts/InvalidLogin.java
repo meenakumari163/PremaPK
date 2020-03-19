@@ -27,11 +27,11 @@ public class InvalidLogin extends BaseTest {
 			 
 	lp.clickLogin();
 	WebDriverWait wait=new WebDriverWait(driver,30);
-	wait.until(ExpectedConditions.titleIs("HopOn"));
+	wait.until(ExpectedConditions.titleIs("HopOn1"));
 			
 			
 	SoftAssert s= new SoftAssert();
-    s.assertEquals(driver.getTitle(),"HopOn");
+    s.assertEquals(driver.getTitle(),"HopOn1");
     s.assertAll();
 	}
   }

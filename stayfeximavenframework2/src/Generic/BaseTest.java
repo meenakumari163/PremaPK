@@ -40,7 +40,7 @@ public class BaseTest implements IAutocontant {
            Lib.TakesScreenShot(driver, result.getName());
            
         	}
-           // driver.close();
+            driver.close();
            }
 
 }

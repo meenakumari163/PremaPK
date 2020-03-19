@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-15T04:54:01Z" name="Suite1" finished-at="2020-02-15T04:55:14Z" duration-ms="72420">
+  <suite started-at="2020-03-17T17:19:03Z" name="Suite1" finished-at="2020-03-17T17:19:54Z" duration-ms="50468">
     <groups>
     </groups>
-    <test started-at="2020-02-15T04:54:01Z" name="Test" finished-at="2020-02-15T04:55:14Z" duration-ms="72420">
+    <test started-at="2020-03-17T17:19:03Z" name="Test" finished-at="2020-03-17T17:19:54Z" duration-ms="50468">
       <class name="Scripts.InvalidLogin">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:Scripts.InvalidLogin@1b68b9a4]" started-at="2020-02-15T10:24:38Z" name="openApplication" finished-at="2020-02-15T10:24:57Z" duration-ms="18510" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Scripts.InvalidLogin@1b68b9a4]" started-at="2020-03-17T22:49:32Z" name="openApplication" finished-at="2020-03-17T22:49:37Z" duration-ms="5534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="testInavalidLogin()[pri:0, instance:Scripts.InvalidLogin@1b68b9a4]" started-at="2020-02-15T10:24:57Z" name="testInavalidLogin" finished-at="2020-02-15T10:25:14Z" duration-ms="16925" status="PASS">
+        <test-method signature="testInavalidLogin()[pri:0, instance:Scripts.InvalidLogin@1b68b9a4]" started-at="2020-03-17T22:49:37Z" name="testInavalidLogin" finished-at="2020-03-17T22:49:53Z" duration-ms="15995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInavalidLogin -->
-        <test-method is-config="true" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Scripts.InvalidLogin@1b68b9a4]" started-at="2020-02-15T10:25:14Z" name="closeApplication" finished-at="2020-02-15T10:25:14Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Scripts.InvalidLogin@1b68b9a4]" started-at="2020-03-17T22:49:53Z" name="closeApplication" finished-at="2020-03-17T22:49:54Z" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- Scripts.InvalidLogin -->
       <class name="Scripts.ValidLogin">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:Scripts.ValidLogin@64d2d351]" started-at="2020-02-15T10:24:01Z" name="openApplication" finished-at="2020-02-15T10:24:13Z" duration-ms="11491" status="PASS">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Scripts.ValidLogin@64d2d351]" started-at="2020-03-17T22:49:03Z" name="openApplication" finished-at="2020-03-17T22:49:11Z" duration-ms="7648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="testValidLogin()[pri:0, instance:Scripts.ValidLogin@64d2d351]" started-at="2020-02-15T10:24:13Z" name="testValidLogin" finished-at="2020-02-15T10:24:38Z" duration-ms="25459" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:Scripts.ValidLogin@64d2d351]" started-at="2020-03-17T22:49:11Z" name="testValidLogin" finished-at="2020-03-17T22:49:30Z" duration-ms="18979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Scripts.ValidLogin@64d2d351]" started-at="2020-02-15T10:24:38Z" name="closeApplication" finished-at="2020-02-15T10:24:38Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Scripts.ValidLogin@64d2d351]" started-at="2020-03-17T22:49:30Z" name="closeApplication" finished-at="2020-03-17T22:49:32Z" duration-ms="2086" status="PASS">
           <params>
             <param index="0">
               <value>

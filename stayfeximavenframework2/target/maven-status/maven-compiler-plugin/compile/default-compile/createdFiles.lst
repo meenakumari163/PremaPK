@@ -1,8 +1,6 @@
-Generic\IAutocontant.class
-Scripts\ValidLogin.class
-Scripts\Pgm4.class
-Pompages\Loginpage.class
 Generic\BaseTest.class
-Scripts\Pgm3.class
+Generic\IAutocontant.class
 Scripts\InvalidLogin.class
+Scripts\ValidLogin.class
 Generic\Lib.class
+Pompages\Loginpage.class
